@@ -79,7 +79,10 @@ Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et a
 - EPOCHS: **10** & STEPS_PER_EPOCH: **50**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_50_steps.txt">Logs losses</a>
 
-- Graph representing the train and validation losses: 
+- Graph representing the train and validation losses:
+
+![GRAPH_10_EPOCHS_50_STEPS](https://github.com/user-attachments/assets/0c62c752-cdf4-4c40-bb45-3b2b5bbbf439)
+
 
 
 
