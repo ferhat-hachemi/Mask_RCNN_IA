@@ -39,7 +39,8 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 
 - Graph representing the train and validation losses:
   
-  ![GRAPH_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/5cbd4b91-76c1-4cbf-b597-b245c4b0cab4)
+![GRAPH_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/91693cc8-2071-4cb3-97c8-3948375fa800)
+
 
 - Test Detection: 
 
