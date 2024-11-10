@@ -46,10 +46,14 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 ![MODEL_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/491b5b6b-5340-4e26-bc32-34e7519ce8c5)
 
 - Smart Human-Generated Comment
-
+................
 
 **Training 2:**
-  
+- Activation: **ReLU**
+- LEARNING_RATE : **0.001**
+- OPTIMIZER: **SGD**
+- EPOCHS: **10** & STEPS_PER_EPOCH: **200**
+- The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_200_steps.txt">Logs losses</a>
 
 
 
