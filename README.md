@@ -22,3 +22,6 @@ Le dataset utilisé pour ce projet a été conçu pour entraîner un modèle de 
 
 **Prétraitement des données :**
 Pour s'assurer que le modèle puisse traiter les images de manière optimale, un prétraitement a été appliqué aux données. Toutes les images ont été redimensionnées à une résolution standard de 640x640 pixels, conformément aux exigences du modèle Mask R-CNN, qui s'attend à des entrées de dimensions fixes
+
+**Division du Dataset :**
+Le dataset a été divisé en deux sous-ensembles pour l'entraînement et la validation, selon une répartition standard de 85 % pour l'entraînement et 15 % pour la validation. Cette proportion permet au modèle de s'entraîner sur une quantité suffisante de données tout en laissant un échantillon représentatif pour évaluer sa performance sur des images inédites.
