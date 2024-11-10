@@ -69,7 +69,7 @@ Pour cette entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ai
 ................
 
 **Training 3:**
-Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et augmenté VALIDATION_STEPS=30 que VALIDATION_STEPS=50.
+Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et augmenté VALIDATION_STEPS=30.
 
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
