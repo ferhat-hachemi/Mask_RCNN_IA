@@ -33,7 +33,7 @@ Pour pouvoir lancer l'environnement, nous avons créé un environnement Python a
 
 Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajustant différents paramètres pour observer leur impact sur les performances. Des hyperparamètres tels que le nombre d'époques (EPOCHS), le nombre d'étapes par époque (STEPS_PER_EPOCH) et les étapes de validation (VALIDATION_STEPS) ont été modifiés, permettant de suivre les variations dans les comportements du modèle et les changements des pertes (losses) au cours de l'entraînement.
 
-*Entrainement 1*:
+# *Entrainement 1*:
 - Activation: ****
 - LEARNING_RATE : **0.001**
 - OPTIMIZER: ****
