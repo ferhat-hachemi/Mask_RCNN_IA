@@ -99,6 +99,10 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 
 - Graph representing the train and validation losses:
 
+![GRAPH_5_EPOCHS_30_STEPS](https://github.com/user-attachments/assets/a086b4ff-8efe-4571-8536-c47254572534)
+
+- Smart Human-Generated Comment
+................
 
 
 
