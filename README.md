@@ -59,8 +59,10 @@ Pour cette entrainement on a augmenté le nombre de STEPS_PER_EPOCH=200 ainsi qu
 
 - Graph representing the train and validation losses: 
 
+![GRAPH_10_EPOCHS_200_STEPS](https://github.com/user-attachments/assets/f133ad0a-2ea5-458b-8f8a-669416f9a947)
 
-
+- Smart Human-Generated Comment
+................
 
 
 
