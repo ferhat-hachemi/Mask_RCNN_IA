@@ -30,7 +30,7 @@ Pour pouvoir lancer l'environnement, nous avons créé un environnement Python a
 
 Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajustant différents paramètres pour observer leur impact sur les performances. Des hyperparamètres tels que le nombre d'époques (EPOCHS), le nombre d'étapes par époque (STEPS_PER_EPOCH) et les étapes de validation (VALIDATION_STEPS) ont été modifiés, permettant de suivre les variations dans les comportements du modèle et les changements des pertes (losses) au cours de l'entraînement.
 
-**Entrainement 1:**
+**Training 1:**
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
 - OPTIMIZER: **SGD**
@@ -45,6 +45,11 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 
 ![MODEL_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/491b5b6b-5340-4e26-bc32-34e7519ce8c5)
 
+- Smart Human-Generated Comment
+
+
+**Training 2:**
+  
 
 
 
