@@ -1,8 +1,8 @@
 
-detect lighters - v2 2024-11-05 6:58pm
+detect lighters - v3 2024-11-10 7:27pm
 ==============================
 
-This dataset was exported via roboflow.com on November 5, 2024 at 6:59 PM GMT
+This dataset was exported via roboflow.com on November 10, 2024 at 7:34 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,7 +17,7 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 155 images.
+The dataset includes 285 images.
 Lighter are annotated in COCO format.
 
 The following pre-processing was applied to each image:
