@@ -37,7 +37,8 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 - EPOCHS: **10** && STEPS_PER_EPOCH: **15**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_15_steps.txt">Logs losses</a>
 
-**Graph representing the train and validation losses**
+- Graph representing the train and validation losses:
+  
 
 - Test Detection: 
 
