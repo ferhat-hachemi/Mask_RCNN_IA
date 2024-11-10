@@ -1,9 +1,5 @@
 # Mask_RCNN_IA
 
-Pour réaliser ce projet, nous avons effectué de nombreux entraînements sur notre jeu de données (dataset) en testant différents paramètres. Tous les essais seront détaillés dans la suite.*
-
-## Training 1 ** 10 EPOCHS **
-
 
 ## Introduction
 
