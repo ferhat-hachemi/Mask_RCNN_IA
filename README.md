@@ -112,6 +112,16 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 - Smart Human-Generated Comment
 ................
 
+**Training 5:**
+Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînement et 32 % pour la validation. Des ajustements ont également été apportés aux hyperparamètres pour affiner les performances du modèle.
+
+- Activation: **ReLU**
+- LEARNING_RATE : **0.0001**
+- OPTIMIZER: **SGD**
+- EPOCHS: **10** & STEPS_PER_EPOCH: **40**
+- The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_5_epochs_30_steps.txt">Logs losses</a>
+
+- Graph representing the train and validation losses:
 
 
 
