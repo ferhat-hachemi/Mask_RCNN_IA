@@ -25,3 +25,5 @@ Pour s'assurer que le modèle puisse traiter les images de manière optimale, un
 
 **Division du Dataset :**
 Le dataset a été divisé en deux sous-ensembles pour l'entraînement et la validation, selon une répartition standard de 85 % pour l'entraînement et 15 % pour la validation. Cette proportion permet au modèle de s'entraîner sur une quantité suffisante de données tout en laissant un échantillon représentatif pour évaluer sa performance sur des images inédites.
+
+ ## Environnement de Travail
