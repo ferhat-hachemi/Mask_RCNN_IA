@@ -64,7 +64,8 @@ Pour cette entrainement on a augmenté le nombre de STEPS_PER_EPOCH=200 ainsi qu
 
 
 - Test Detection:
-  ![image](https://github.com/user-attachments/assets/3c7496a6-64f8-4c2e-8f71-7413ebf84206)
+  
+![image](https://github.com/user-attachments/assets/3c7496a6-64f8-4c2e-8f71-7413ebf84206)
 
 - Smart Human-Generated Comment
 ................
