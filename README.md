@@ -49,7 +49,7 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 ................
 
 **Training 2:**
-Pour cette entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ainsi que VALIDATION_STEPS=20 afin d'améliorer la qualité de l'apprentissage du modèle.
+Pour cet entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ainsi que VALIDATION_STEPS=20 afin d'améliorer la qualité de l'apprentissage du modèle.
 
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
@@ -69,7 +69,7 @@ Pour cette entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ai
 ................
 
 **Training 3:**
-Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et augmenté VALIDATION_STEPS=30.
+Pour cet entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et augmenté VALIDATION_STEPS=30.
 
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
@@ -87,12 +87,17 @@ Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et a
 
 - Smart Human-Generated Comment
 ................
+  
+**Training 4:**
+Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS=5 & STEPS_PER_EPOCH=30
 
+- Activation: **ReLU**
+- LEARNING_RATE : **0.0001**
+- OPTIMIZER: **SGD**
+- EPOCHS: **5** & STEPS_PER_EPOCH: **30**
+- The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_5_epochs_30_steps.txt">Logs losses</a>
 
-
-
-
-
+- Graph representing the train and validation losses:
 
 
 
