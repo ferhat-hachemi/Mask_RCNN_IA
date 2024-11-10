@@ -41,7 +41,6 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
   
 ![GRAPH_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/91693cc8-2071-4cb3-97c8-3948375fa800)
 
-
 - Test Detection: 
 
 ![MODEL_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/491b5b6b-5340-4e26-bc32-34e7519ce8c5)
@@ -61,7 +60,6 @@ Pour cette entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ai
 - Graph representing the train and validation losses: 
 
 ![GRAPH_10_EPOCHS_200_STEPS](https://github.com/user-attachments/assets/f133ad0a-2ea5-458b-8f8a-669416f9a947)
-
 
 - Test Detection:
   
@@ -83,7 +81,9 @@ Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et a
 
 ![GRAPH_10_EPOCHS_50_STEPS](https://github.com/user-attachments/assets/0c62c752-cdf4-4c40-bb45-3b2b5bbbf439)
 
-
+- Test Detection:
+  
+![image](https://github.com/user-attachments/assets/b7fe5836-638c-4687-89f4-22a56585a5f8)
 
 
 
