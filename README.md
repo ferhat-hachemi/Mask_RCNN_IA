@@ -1,6 +1,3 @@
-![image](https://github.com/user-attachments/assets/57776d2d-a97a-4431-b0df-0302b0e529a0)# Mask_RCNN_IA
-
-
 ## Introduction
 
 **Objectif du projet :**
