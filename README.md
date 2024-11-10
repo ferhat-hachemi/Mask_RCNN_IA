@@ -13,7 +13,7 @@ Ce rapport est structuré pour documenter de manière détaillée les différent
 - L'objectif de cette structure est de montrer la progression de l'optimisation du modèle et de fournir une analyse approfondie des ajustements effectués.
 
 ## Description du Dataset
-Vous trouverz ici notre dataset utilisé pour l'entrainement <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_200_steps.txt](https://github.com/ferhat-hachemi/Mask_RCNN_IA/tree/master/dataset/lighter-dataset">Dataset</a>
+Vous trouverz ici notre dataset utilisé pour l'entrainement: ** <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_200_steps.txt](https://github.com/ferhat-hachemi/Mask_RCNN_IA/tree/master/dataset/lighter-dataset">Dataset</a> **
 
 **Constitution du Dataset :**
 Le dataset utilisé pour ce projet a été conçu pour entraîner un modèle de détection d’objets sur des images de briquets ("lighters"). Un ensemble de 150 images a été collecté, couvrant divers angles et conditions d’éclairage. Roboflow a été utilisé pour annoter chaque image, en marquant les coordonnées précises des briquets, et pour générer les fichiers de labélisation compatibles avec le format Mask R-CNN. Cet outil a facilité un processus d'annotation précis et rapide, essentiel pour entraîner le modèle à détecter les briquets avec précision.
