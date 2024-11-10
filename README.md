@@ -101,6 +101,10 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 
 ![GRAPH_5_EPOCHS_30_STEPS](https://github.com/user-attachments/assets/a086b4ff-8efe-4571-8536-c47254572534)
 
+- Test Detection:
+  
+![image](https://github.com/user-attachments/assets/bdbd26e4-d016-4c68-945c-8a11b16b6774)
+
 - Smart Human-Generated Comment
 ................
 
