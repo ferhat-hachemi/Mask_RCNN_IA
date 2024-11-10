@@ -1,0 +1,29 @@
+Epoch 1/10
+200/200 [==============================] - 2876s 14s/step - loss: 8.8351 - rpn_class_loss: 0.8375 - rpn_bbox_loss: 7.5331 - mrcnn_class_loss: 0.0742 - mrcnn_bbox_loss: 0.3076 - mrcnn_mask_loss: 0.0827 - val_loss: 3.8631 - val_rpn_class_loss: 0.1280 - val_rpn_bbox_loss: 3.4392 - val_mrcnn_class_loss: 3.5485e-05 - val_mrcnn_bbox_loss: 0.2320 - val_mrcnn_mask_loss: 0.0639
+
+Epoch 2/10
+200/200 [==============================] - 2855s 14s/step - loss: 4.2818 - rpn_class_loss: 0.2208 - rpn_bbox_loss: 3.7878 - mrcnn_class_loss: 0.0028 - mrcnn_bbox_loss: 0.2033 - mrcnn_mask_loss: 0.0671 - val_loss: 3.3793 - val_rpn_class_loss: 0.0612 - val_rpn_bbox_loss: 1.7472 - val_mrcnn_class_loss: 0.0116 - val_mrcnn_bbox_loss: 1.0810 - val_mrcnn_mask_loss: 0.4783
+
+Epoch 3/10
+200/200 [==============================] - 2854s 14s/step - loss: 3.0048 - rpn_class_loss: 0.1463 - rpn_bbox_loss: 2.2246 - mrcnn_class_loss: 0.0046 - mrcnn_bbox_loss: 0.4725 - mrcnn_mask_loss: 0.1567 - val_loss: 1.2585 - val_rpn_class_loss: 0.0393 - val_rpn_bbox_loss: 0.9591 - val_mrcnn_class_loss: 0.0028 - val_mrcnn_bbox_loss: 0.1889 - val_mrcnn_mask_loss: 0.0684
+
+Epoch 4/10
+200/200 [==============================] - 2853s 14s/step - loss: 2.4054 - rpn_class_loss: 0.1084 - rpn_bbox_loss: 1.4294 - mrcnn_class_loss: 0.0067 - mrcnn_bbox_loss: 0.6670 - mrcnn_mask_loss: 0.1939 - val_loss: 2.1748 - val_rpn_class_loss: 0.0577 - val_rpn_bbox_loss: 1.0366 - val_mrcnn_class_loss: 0.0094 - val_mrcnn_bbox_loss: 0.8095 - val_mrcnn_mask_loss: 0.2617
+
+Epoch 5/10
+200/200 [==============================] - 2864s 14s/step - loss: 1.9587 - rpn_class_loss: 0.1043 - rpn_bbox_loss: 0.8028 - mrcnn_class_loss: 0.0307 - mrcnn_bbox_loss: 0.7069 - mrcnn_mask_loss: 0.3141 - val_loss: 1.6424 - val_rpn_class_loss: 0.0287 - val_rpn_bbox_loss: 0.5384 - val_mrcnn_class_loss: 0.0416 - val_mrcnn_bbox_loss: 0.6953 - val_mrcnn_mask_loss: 0.3383
+
+Epoch 6/10
+200/200 [==============================] - 2865s 14s/step - loss: 1.9292 - rpn_class_loss: 0.1335 - rpn_bbox_loss: 0.6784 - mrcnn_class_loss: 0.0361 - mrcnn_bbox_loss: 0.6833 - mrcnn_mask_loss: 0.3980 - val_loss: 2.0727 - val_rpn_class_loss: 0.0387 - val_rpn_bbox_loss: 0.6124 - val_mrcnn_class_loss: 0.0380 - val_mrcnn_bbox_loss: 0.8864 - val_mrcnn_mask_loss: 0.4972
+
+Epoch 7/10
+200/200 [==============================] - 2865s 14s/step - loss: 1.9503 - rpn_class_loss: 0.1384 - rpn_bbox_loss: 0.7293 - mrcnn_class_loss: 0.0322 - mrcnn_bbox_loss: 0.6415 - mrcnn_mask_loss: 0.4089 - val_loss: 2.1087 - val_rpn_class_loss: 0.0457 - val_rpn_bbox_loss: 0.5716 - val_mrcnn_class_loss: 0.1101 - val_mrcnn_bbox_loss: 0.8303 - val_mrcnn_mask_loss: 0.5511
+
+Epoch 8/10
+200/200 [==============================] - 2868s 14s/step - loss: 1.8748 - rpn_class_loss: 0.1339 - rpn_bbox_loss: 0.6750 - mrcnn_class_loss: 0.0491 - mrcnn_bbox_loss: 0.5907 - mrcnn_mask_loss: 0.4261 - val_loss: 2.0387 - val_rpn_class_loss: 0.0253 - val_rpn_bbox_loss: 0.5944 - val_mrcnn_class_loss: 0.0426 - val_mrcnn_bbox_loss: 0.7544 - val_mrcnn_mask_loss: 0.6220
+
+Epoch 9/10
+200/200 [==============================] - 2872s 14s/step - loss: 1.7994 - rpn_class_loss: 0.0502 - rpn_bbox_loss: 0.5668 - mrcnn_class_loss: 0.0510 - mrcnn_bbox_loss: 0.6335 - mrcnn_mask_loss: 0.4979 - val_loss: 1.7925 - val_rpn_class_loss: 0.0307 - val_rpn_bbox_loss: 0.5457 - val_mrcnn_class_loss: 0.0356 - val_mrcnn_bbox_loss: 0.6223 - val_mrcnn_mask_loss: 0.5581
+
+Epoch 10/10
+200/200 [==============================] - 2873s 14s/step - loss: 1.8307 - rpn_class_loss: 0.1018 - rpn_bbox_loss: 0.6788 - mrcnn_class_loss: 0.0443 - mrcnn_bbox_loss: 0.5585 - mrcnn_mask_loss: 0.4473 - val_loss: 1.9997 - val_rpn_class_loss: 0.0355 - val_rpn_bbox_loss: 0.5778 - val_mrcnn_class_loss: 0.0485 - val_mrcnn_bbox_loss: 0.7532 - val_mrcnn_mask_loss: 0.5847
