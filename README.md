@@ -85,9 +85,8 @@ Pour cette entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et a
   
 ![image](https://github.com/user-attachments/assets/b7fe5836-638c-4687-89f4-22a56585a5f8)
 
-
-
-
+- Smart Human-Generated Comment
+................
 
 
 
