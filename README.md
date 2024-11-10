@@ -122,6 +122,12 @@ Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînemen
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_40_steps.txt">Logs losses</a>
 
 - Graph representing the train and validation losses:
+  
+![GRAPH_10_EPOCHS_40_STEPS](https://github.com/user-attachments/assets/73b9a568-6df1-4af5-8639-ee9780542444)
 
+- Test Detection:
+  
 
+- Smart Human-Generated Comment
+................
 
