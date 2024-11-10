@@ -49,13 +49,15 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 ................
 
 **Training 2:**
+Pour cette entrainement on a augmenté le nombre de STEPS_PER_EPOCH=200 ainsi que VALIDATION_STEPS=20 afin de mieux entrainer le model
+
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
 - OPTIMIZER: **SGD**
 - EPOCHS: **10** & STEPS_PER_EPOCH: **200**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_200_steps.txt">Logs losses</a>
 
-
+- Graph representing the train and validation losses: 
 
 
 
