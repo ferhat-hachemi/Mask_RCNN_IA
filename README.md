@@ -1,4 +1,4 @@
-# Mask_RCNN_IA
+![image](https://github.com/user-attachments/assets/57776d2d-a97a-4431-b0df-0302b0e529a0)# Mask_RCNN_IA
 
 
 ## Introduction
@@ -39,7 +39,10 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 - OPTIMIZER: ****
 - EPOCHS: **10**
 - STEPS_PER_EPOCH: **15**
+- 
 
+
+![MODEL_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/491b5b6b-5340-4e26-bc32-34e7519ce8c5)
 
 
 
