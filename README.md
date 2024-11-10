@@ -127,6 +127,7 @@ Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînemen
 
 - Test Detection:
   
+![1000100845](https://github.com/user-attachments/assets/6f7541a3-9bee-4870-9a08-2559ec0a200b)
 
 - Smart Human-Generated Comment
 ................
