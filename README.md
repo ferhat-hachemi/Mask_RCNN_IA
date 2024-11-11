@@ -69,8 +69,8 @@ Pour cet entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ains
   
 ![image](https://github.com/user-attachments/assets/3c7496a6-64f8-4c2e-8f71-7413ebf84206)
 
-- Smart Human-Generated Comment
-................
+- Commentaire: 
+  - On remarque que les courbes suivent le même schéma que lors de l'entraînement précédent, mais sont beaucoup plus proches, voire identiques vers les dernières époques, indiquant une réduction de l'overfitting par rapport au précédent entraînement.
 
 **Training 3:**
 Pour cet entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et augmenté VALIDATION_STEPS=30.
