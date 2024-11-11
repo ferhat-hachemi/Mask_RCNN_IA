@@ -135,4 +135,4 @@ Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînemen
 
 ## Conclusion
 
-
+En conclusion, malgré diverses tentatives d'amélioration (ajustements de taux d'apprentissage, réduction du surapprentissage, augmentation des données), le modèle continue de rencontrer des difficultés à détecter correctement les briquets. Les résultats indiquent un problème de généralisation, possiblement lié à un manque d'extraction efficace des caractéristiques pertinentes. Une optimisation plus poussée, notamment via le fine-tuning des couches intermédiaires ou des ajustements d'hyperparamètres, ainsi qu'une amélioration de la qualité des données, pourrait s'avérer nécessaire pour obtenir de meilleures performances.
