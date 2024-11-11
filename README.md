@@ -49,8 +49,8 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 
 ![MODEL_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/491b5b6b-5340-4e26-bc32-34e7519ce8c5)
 
-- Smart Human-Generated Comment
-................
+- Commentaire :
+  - La courbe d'entraînement montre une forte baisse initiale, puis se stabilise avec de légères variations, indiquant que le modèle apprend bien au début mais rencontre des difficultés à progresser par la suite. Cela suggère qu'il pourrait bénéficier d'améliorations pour mieux généraliser, comme l'ajout de régularisation ou l'augmentation des données pour éviter le surapprentissage.
 
 **Training 2:**
 Pour cet entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ainsi que VALIDATION_STEPS=20 afin d'améliorer la qualité de l'apprentissage du modèle.
@@ -69,8 +69,8 @@ Pour cet entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ains
   
 ![image](https://github.com/user-attachments/assets/3c7496a6-64f8-4c2e-8f71-7413ebf84206)
 
-- Smart Human-Generated Comment
-................
+- Commentaire: 
+  - On remarque que les courbes suivent le même schéma que lors de l'entraînement précédent, mais sont beaucoup plus proches, voire identiques vers les dernières époques, indiquant une réduction de l'overfitting par rapport au précédent entraînement.
 
 **Training 3:**
 Pour cet entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et augmenté VALIDATION_STEPS=30.
@@ -89,8 +89,8 @@ Pour cet entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et aug
   
 ![image](https://github.com/user-attachments/assets/b7fe5836-638c-4687-89f4-22a56585a5f8)
 
-- Smart Human-Generated Comment
-................
+- Commentaire:
+  - Le graphique montre que la perte d'entraînement est moins stable, avec certaines époques où la perte d'entraînement dépasse la perte de validation. Cela peut indiquer que le modèle rencontre des difficultés d’optimisation ou qu’il apprend de manière irrégulière. Ce comportement peut être dû à un taux d'apprentissage trop élevé.
   
 **Training 4:**
 Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS=5 & STEPS_PER_EPOCH=30
@@ -109,9 +109,30 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
   
 ![image](https://github.com/user-attachments/assets/bdbd26e4-d016-4c68-945c-8a11b16b6774)
 
-- Smart Human-Generated Comment
-................
+- Commentaire:
+  - Avec la réduction du taux d’apprentissage et du nombre d’époques, le graphique montre une stabilisation autour d’une perte de 2.5, indiquant une convergence plus régulière. Cependant, comme les résultats de détection restent incorrects, cela pourrait signaler que le modèle ne capte pas les bonnes caractéristiques pour identifier les briquets.
+
+**Training 5:**
+Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînement et 32 % pour la validation. Des ajustements ont également été apportés aux hyperparamètres pour affiner les performances du modèle.
+
+- Activation: **ReLU**
+- LEARNING_RATE : **0.0001**
+- OPTIMIZER: **SGD**
+- EPOCHS: **10** & STEPS_PER_EPOCH: **40**
+- The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_40_steps.txt">Logs losses</a>
+
+- Graph representing the train and validation losses:
+  
+![GRAPH_10_EPOCHS_40_STEPS](https://github.com/user-attachments/assets/73b9a568-6df1-4af5-8639-ee9780542444)
+
+- Test Detection:
+  
+![1000100845](https://github.com/user-attachments/assets/6f7541a3-9bee-4870-9a08-2559ec0a200b)
+
+- Commentaire: 
+  - Malgré l'augmentation de la taille du dataset d'entraînement et de validation, la détection reste incorrecte. Cela suggère que le modèle peine toujours à extraire les caractéristiques nécessaires pour détecter les briquets. Il est possible que la qualité ou la pertinence des nouvelles données ne soit pas suffisante, ou que le modèle ait besoin de plus de finetuning, notamment sur les couches intermédiaires. Il pourrait aussi être utile d'ajuster d'autres hyperparamètres.
 
 
+## Conclusion
 
-
+En conclusion, malgré diverses tentatives d'amélioration (ajustements de taux d'apprentissage, réduction du surapprentissage, augmentation des données), le modèle continue de rencontrer des difficultés à détecter correctement les briquets. Les résultats indiquent un problème de généralisation, possiblement lié à un manque d'extraction efficace des caractéristiques pertinentes. Une optimisation plus poussée, notamment via le fine-tuning des couches intermédiaires ou des ajustements d'hyperparamètres, ainsi qu'une amélioration de la qualité des données, pourrait s'avérer nécessaire pour obtenir de meilleures performances.
