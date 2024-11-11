@@ -132,3 +132,7 @@ Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînemen
 - Smart Human-Generated Comment
 ................
 
+
+## Conclusion
+
+
