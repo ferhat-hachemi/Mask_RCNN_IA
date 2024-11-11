@@ -129,8 +129,8 @@ Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînemen
   
 ![1000100845](https://github.com/user-attachments/assets/6f7541a3-9bee-4870-9a08-2559ec0a200b)
 
-- Smart Human-Generated Comment
-................
+- Commentaire: 
+  - Malgré l'augmentation de la taille du dataset d'entraînement et de validation, la détection reste incorrecte. Cela suggère que le modèle peine toujours à extraire les caractéristiques nécessaires pour détecter les briquets. Il est possible que la qualité ou la pertinence des nouvelles données ne soit pas suffisante, ou que le modèle ait besoin de plus de finetuning, notamment sur les couches intermédiaires. Il pourrait aussi être utile d'ajuster d'autres hyperparamètres.
 
 
 ## Conclusion
