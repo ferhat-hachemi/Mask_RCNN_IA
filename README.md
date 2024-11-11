@@ -109,8 +109,8 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
   
 ![image](https://github.com/user-attachments/assets/bdbd26e4-d016-4c68-945c-8a11b16b6774)
 
-- Smart Human-Generated Comment
-................
+- Commentaire:
+  - Avec la réduction du taux d’apprentissage et du nombre d’époques, le graphique montre une stabilisation autour d’une perte de 2.5, indiquant une convergence plus régulière. Cependant, comme les résultats de détection restent incorrects, cela pourrait signaler que le modèle ne capte pas les bonnes caractéristiques pour identifier les briquets.
 
 **Training 5:**
 Le dataset a été étendu à 277 images, réparties en 68 % pour l'entraînement et 32 % pour la validation. Des ajustements ont également été apportés aux hyperparamètres pour affiner les performances du modèle.
