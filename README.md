@@ -89,8 +89,8 @@ Pour cet entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et aug
   
 ![image](https://github.com/user-attachments/assets/b7fe5836-638c-4687-89f4-22a56585a5f8)
 
-- Smart Human-Generated Comment
-................
+- Commentaire:
+  - Le graphique montre que la perte d'entraînement est moins stable, avec certaines époques où la perte d'entraînement dépasse la perte de validation. Cela peut indiquer que le modèle rencontre des difficultés d’optimisation ou qu’il apprend de manière irrégulière. Ce comportement peut être dû à un taux d'apprentissage trop élevé.
   
 **Training 4:**
 Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS=5 & STEPS_PER_EPOCH=30
