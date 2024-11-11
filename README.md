@@ -49,8 +49,8 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 
 ![MODEL_10_EPOCHS_15_STEPS](https://github.com/user-attachments/assets/491b5b6b-5340-4e26-bc32-34e7519ce8c5)
 
-- Smart Human-Generated Comment
-................
+- Commentaire :
+  - La courbe d'entraînement montre une forte baisse initiale, puis se stabilise avec de légères variations, indiquant que le modèle apprend bien au début mais rencontre des difficultés à progresser par la suite. Cela suggère qu'il pourrait bénéficier d'améliorations pour mieux généraliser, comme l'ajout de régularisation ou l'augmentation des données pour éviter le surapprentissage.
 
 **Training 2:**
 Pour cet entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ainsi que VALIDATION_STEPS=20 afin d'améliorer la qualité de l'apprentissage du modèle.
