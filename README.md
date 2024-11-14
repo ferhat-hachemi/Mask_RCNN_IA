@@ -120,6 +120,8 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_40_steps_detection.txt">Logs losses</a>
 
 - Graph representing the train and validation losses:
+  
+![Screenshot from 2024-11-14 21-20-44](https://github.com/user-attachments/assets/d612c97b-89e5-46cc-8ae1-77d000776e5e)
 
 - Test Detection:
 
