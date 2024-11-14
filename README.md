@@ -125,6 +125,13 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 
 - Test Detection:
 
+![image](https://github.com/user-attachments/assets/a3868dd2-6219-4df9-9bd9-d28dd97d6ada)
+
+![image1](https://github.com/user-attachments/assets/15d45b6b-d53f-47e2-921b-87dd3af9b760)
+
+
+- Commentaire:
+....
 
 ## Conclusion
 
