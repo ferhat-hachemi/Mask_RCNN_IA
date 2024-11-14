@@ -131,8 +131,8 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 
 
 - Commentaire:
-....
+Le graphique montre une bonne convergence des pertes d’entraînement et de validation, stabilisées autour de 0.5, indiquant que le modèle apprend de manière régulière sans surapprentissage. Cependant, la présence de cadres de détection supplémentaires suggère qu'il capte des caractéristiques non spécifiques aux briquets, entraînant des faux positif.    
 
 ## Conclusion
 
-En conclusion, malgré diverses tentatives d'amélioration (ajustements de taux d'apprentissage, réduction du surapprentissage, augmentation des données), le modèle continue de rencontrer des difficultés à détecter correctement les briquets. Les résultats indiquent un problème de généralisation, possiblement lié à un manque d'extraction efficace des caractéristiques pertinentes. Une optimisation plus poussée, notamment via le fine-tuning des couches intermédiaires ou des ajustements d'hyperparamètres, ainsi qu'une amélioration de la qualité des données, pourrait s'avérer nécessaire pour obtenir de meilleures performances......
+En conclusion, le modèle Mask R-CNN parvient bien à détecter les briquets, mais génère encore des cadres superflus. Cela indique qu'il reste des problèmes de généralisation. Un fine-tuning supplémentaire, ou un ajustement des hyperparamètres pourraient aider à réduire ces faux positifs et affiner la précision globale.
