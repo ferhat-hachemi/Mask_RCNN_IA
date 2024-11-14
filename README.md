@@ -135,4 +135,4 @@ Le graphique montre une bonne convergence des pertes d’entraînement et de val
 
 ## Conclusion
 
-En conclusion, le modèle Mask R-CNN parvient bien à détecter les briquets, mais génère encore des cadres superflus. Cela indique qu'il reste des problèmes de généralisation. Un fine-tuning supplémentaire, ou un ajustement des hyperparamètres pourraient aider à réduire ces faux positifs et affiner la précision globale.
+En conclusion, le modèle Mask R-CNN parvient bien à détecter les briquets, mais génère encore des cadres inutiles. Cela indique qu'il reste des problèmes de généralisation. Un fine-tuning supplémentaire, ou un ajustement des hyperparamètres pourraient aider à réduire ces faux positifs et affiner la précision globale.
