@@ -113,6 +113,8 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
   - Avec la réduction du taux d’apprentissage et du nombre d’époques, le graphique montre une stabilisation autour d’une perte de 2.5, indiquant une convergence plus régulière. Cependant, comme les résultats de détection restent incorrects, cela pourrait signaler que le modèle ne capte pas les bonnes caractéristiques pour identifier les briquets.
 
 **Training 5:**
+À partir de cte entraaainement nous avons augmenté la taille de dataset avec 277 images pour essayer d'améliorer le model.
+
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
 - OPTIMIZER: **SGD**
@@ -131,7 +133,22 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 
 
 - Commentaire:
-Le graphique montre une bonne convergence des pertes d’entraînement et de validation, stabilisées autour de 0.5, indiquant que le modèle apprend de manière régulière sans surapprentissage. Cependant, la présence de cadres de détection supplémentaires suggère qu'il capte des caractéristiques non spécifiques aux briquets, entraînant des faux positif.    
+Le graphique montre une bonne convergence des pertes d’entraînement et de validation, stabilisées autour de 0.5, indiquant que le modèle apprend de manière régulière sans surapprentissage. Cependant, la présence de cadres de détection supplémentaires suggère qu'il capte des caractéristiques non spécifiques aux briquets, entraînant des faux positif.
+
+**Training 6:** (Fine tuning de résultat précedent avec 10 EPOCHS en plus)
+- Activation: **ReLU**
+- LEARNING_RATE : **0.0001**
+- OPTIMIZER: **SGD**
+- EPOCHS: **10** & STEPS_PER_EPOCH: **80**
+- The log file of the training with the last line showing the different losses: <a href="">Logs losses</a>
+
+- Graph representing the train and validation losses:
+
+  
+- Test detection :
+
+- Commentaire:
+
 
 ## Conclusion
 
