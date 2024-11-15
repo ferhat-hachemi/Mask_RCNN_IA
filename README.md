@@ -144,6 +144,8 @@ Le graphique montre une bonne convergence des pertes d’entraînement et de val
 
 - Graph representing the train and validation losses:
 
+![Screenshot from 2024-11-15 10-18-24](https://github.com/user-attachments/assets/2e1afec9-c199-42da-b024-50554b4c5e6f)
+
   
 - Test detection :
  
