@@ -113,7 +113,7 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
   - Avec la réduction du taux d’apprentissage et du nombre d’époques, le graphique montre une stabilisation autour d’une perte de 2.5, indiquant une convergence plus régulière. Cependant, comme les résultats de détection restent incorrects, cela pourrait signaler que le modèle ne capte pas les bonnes caractéristiques pour identifier les briquets.
 
 **Training 5:**
-À partir de cte entraaainement nous avons augmenté la taille de dataset avec 277 images pour essayer d'améliorer le model.
+À partir de cet entrainement nous avons augmenté la taille de dataset avec 277 images (68% training et 32% vlidation) pour essayer d'améliorer le model.
 
 - Activation: **ReLU**
 - LEARNING_RATE : **0.001**
