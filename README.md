@@ -140,7 +140,7 @@ Le graphique montre une bonne convergence des pertes d’entraînement et de val
 - LEARNING_RATE : **0.0001**
 - OPTIMIZER: **SGD**
 - EPOCHS: **10** & STEPS_PER_EPOCH: **80**
-- The log file of the training with the last line showing the different losses: <a href="">Logs losses</a>
+- The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_20_epochs_80_steps_fine_tuning.txt">Logs losses</a>
 
 - Graph representing the train and validation losses:
 
