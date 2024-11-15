@@ -146,6 +146,10 @@ Le graphique montre une bonne convergence des pertes d’entraînement et de val
 
   
 - Test detection :
+ 
+![fine_tuning1](https://github.com/user-attachments/assets/bf0d0aa1-f80b-4e9c-acbd-fde8e3804bbf)
+
+![fine_tuning2](https://github.com/user-attachments/assets/a28ee694-89e1-4fa3-b3d4-7904538637cf)
 
 - Commentaire:
 
