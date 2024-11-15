@@ -154,7 +154,7 @@ Le graphique montre une bonne convergence des pertes d’entraînement et de val
 ![fine_tuning2](https://github.com/user-attachments/assets/a28ee694-89e1-4fa3-b3d4-7904538637cf)
 
 - Commentaire:
-
+Grâce au fine-tuning, le nombre de faux positifs a diminué, mais le modèle continue à générer des cadres de détection inutiles.
 
 ## Conclusion
 
