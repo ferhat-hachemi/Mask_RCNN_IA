@@ -40,6 +40,17 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 - OPTIMIZER: **SGD**
 - EPOCHS: **10** & STEPS_PER_EPOCH: **15**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_15_steps.txt">Logs losses</a>
+- SCREENSHOTS
+  ![image](https://github.com/user-attachments/assets/ec2fc919-27f2-4ccf-bb1c-c00c08078cb8)
+  ![image](https://github.com/user-attachments/assets/047cb5cc-ed87-4755-ac32-78eaaae1d277)
+  ![image](https://github.com/user-attachments/assets/2e74bf91-8565-4892-9385-6f39dd52815a)
+  ![image](https://github.com/user-attachments/assets/26146756-6941-41c6-abdf-54a4b484b240)
+  ![image](https://github.com/user-attachments/assets/1a88606d-2558-4559-9f6d-c1f11903901b)
+  ![image](https://github.com/user-attachments/assets/66f944ce-6cc1-4447-8f2e-361a169910e2)
+  ![image](https://github.com/user-attachments/assets/9e316a00-89c8-4031-8d94-db0b7e5486a7)
+  ![image](https://github.com/user-attachments/assets/d0dc327c-ddc9-48e1-8a3f-7e8f251141d4)
+  ![image](https://github.com/user-attachments/assets/a7b1500a-c16e-4ab3-97d7-7cc76f7b3379)
+  ![image](https://github.com/user-attachments/assets/a7ec9b3a-a3e1-49a5-8df9-a97614f25664)
 
 - Graph representing the train and validation losses:
   
