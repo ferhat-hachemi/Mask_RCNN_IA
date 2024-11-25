@@ -1,6 +1,3 @@
-![image](https://github.com/user-attachments/assets/0efe6613-dd5e-4730-9358-a362a2ffdb56)# Object Detection Mask_RCNN
-
-
 ## Introduction
 
 **Objectif du projet :**
