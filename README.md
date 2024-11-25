@@ -1,4 +1,4 @@
-# Object Detection Mask_RCNN
+![image](https://github.com/user-attachments/assets/0efe6613-dd5e-4730-9358-a362a2ffdb56)# Object Detection Mask_RCNN
 
 
 ## Introduction
@@ -72,6 +72,18 @@ Pour cet entrainement nous avons augmenté le nombre de STEPS_PER_EPOCH=200 ains
 - OPTIMIZER: **SGD**
 - EPOCHS: **10** & STEPS_PER_EPOCH: **200**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_200_steps.txt">Logs losses</a>
+- SCREENSHOTS
+
+ ![image](https://github.com/user-attachments/assets/67aef4d1-b695-4e09-9c72-4c894e89f169)
+ ![image](https://github.com/user-attachments/assets/80bb0aba-a701-4a62-81db-6aaf62d3836f)
+ ![image](https://github.com/user-attachments/assets/5b7d8511-56d9-4268-b669-367fbf0b8185)
+ ![image](https://github.com/user-attachments/assets/c1a5dd2d-9972-477e-923b-dd72259fe052)
+ ![image](https://github.com/user-attachments/assets/8b1026e4-2d8b-48ed-b1c2-8b4b6fcc227c)
+ ![image](https://github.com/user-attachments/assets/490ba82b-f9bc-4c4d-8800-2c0d0f363181)
+ ![image](https://github.com/user-attachments/assets/526de830-489e-4b0a-8a4e-c774af253377)
+ ![image](https://github.com/user-attachments/assets/8aec24a3-9116-4534-aab7-34427825e72e)
+ ![image](https://github.com/user-attachments/assets/2a2ad9d3-fa5f-48a4-9e3a-b7fa964142a9)
+ ![image](https://github.com/user-attachments/assets/d1b90b63-ef2b-4e7d-833f-1f5888425c6b)
 
 - Graph representing the train and validation losses: 
 
