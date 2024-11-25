@@ -194,6 +194,19 @@ Le graphique montre une bonne convergence des pertes d’entraînement et de val
 - EPOCHS: **10** & STEPS_PER_EPOCH: **80**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_20_epochs_80_steps_fine_tuning.txt">Logs losses</a>
 
+- SCREENSHOTS:
+
+ ![image](https://github.com/user-attachments/assets/6dc2d452-0971-4d95-9a25-3501f2466994)
+ ![image](https://github.com/user-attachments/assets/0fa6fde7-155a-4705-ae49-b14e742c7e94)
+ ![image](https://github.com/user-attachments/assets/1d4459cc-d86a-4bcb-afa3-4267ba987962)
+ ![image](https://github.com/user-attachments/assets/55f81ba6-a28a-45af-9c7c-f3702c5a6267)
+ ![image](https://github.com/user-attachments/assets/eb4b64b4-0c3f-42a3-8cbc-3a959dc8b99c)
+ ![image](https://github.com/user-attachments/assets/b7bb54d8-41aa-454a-a8c9-0e57998a2420)
+ ![image](https://github.com/user-attachments/assets/c50c651f-6a84-4301-9804-5c3a553636c5)
+ ![image](https://github.com/user-attachments/assets/3dcc877e-8c59-43c2-be13-f3c45605adec)
+ ![image](https://github.com/user-attachments/assets/82f1d41f-b46b-414a-8bb5-322eefa0ed11)
+ ![image](https://github.com/user-attachments/assets/238063d1-8e4b-4fd9-b7b6-93f95e6bfa34)
+
 - Graph representing the train and validation losses:
 
 ![Screenshot from 2024-11-15 10-18-24](https://github.com/user-attachments/assets/2e1afec9-c199-42da-b024-50554b4c5e6f)
