@@ -41,6 +41,7 @@ Dans notre cas, plusieurs entraînements du modèle ont été réalisés en ajus
 - EPOCHS: **10** & STEPS_PER_EPOCH: **15**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_15_steps.txt">Logs losses</a>
 - SCREENSHOTS
+  
   ![image](https://github.com/user-attachments/assets/ec2fc919-27f2-4ccf-bb1c-c00c08078cb8)
   ![image](https://github.com/user-attachments/assets/047cb5cc-ed87-4755-ac32-78eaaae1d277)
   ![image](https://github.com/user-attachments/assets/2e74bf91-8565-4892-9385-6f39dd52815a)
@@ -148,7 +149,6 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 ![image](https://github.com/user-attachments/assets/a3868dd2-6219-4df9-9bd9-d28dd97d6ada)
 
 ![image1](https://github.com/user-attachments/assets/15d45b6b-d53f-47e2-921b-87dd3af9b760)
-
 
 - Commentaire:
 Le graphique montre une bonne convergence des pertes d’entraînement et de validation, stabilisées autour de 0.5, indiquant que le modèle apprend de manière régulière sans surapprentissage. Cependant, la présence de cadres de détection supplémentaires suggère qu'il capte des caractéristiques non spécifiques aux briquets, entraînant des faux positif.
