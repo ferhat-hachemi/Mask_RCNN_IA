@@ -100,6 +100,13 @@ Pour cet entrainement nous avons réduits le nombre d'EPOCHS=5, VALIDATION_STEPS
 - OPTIMIZER: **SGD**
 - EPOCHS: **5** & STEPS_PER_EPOCH: **30**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_5_epochs_30_steps.txt">Logs losses</a>
+- SCREENSHOTS
+
+![image](https://github.com/user-attachments/assets/e6bc6e55-c1d8-4974-a2c6-6705a3f7c958)
+![image](https://github.com/user-attachments/assets/306f8e94-cfbb-45d4-a0dd-1a9089522e7b)
+![image](https://github.com/user-attachments/assets/411d0010-9923-460e-aeb7-076c6a9da6f6)
+![image](https://github.com/user-attachments/assets/5c44314f-619a-400d-a028-afdc5d4064e9)
+![image](https://github.com/user-attachments/assets/44207fad-75e9-42e5-bbd6-62977313c2b2)
 
 - Graph representing the train and validation losses:
 
