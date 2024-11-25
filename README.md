@@ -92,6 +92,18 @@ Pour cet entrainement nous avons réduits le nombre de STEPS_PER_EPOCH=50 et aug
 - OPTIMIZER: **SGD**
 - EPOCHS: **10** & STEPS_PER_EPOCH: **50**
 - The log file of the training with the last line showing the different losses: <a href="https://github.com/ferhat-hachemi/Mask_RCNN_IA/blob/master/training_logs/log_10_epochs_50_steps.txt">Logs losses</a>
+- SCREENSHOTS
+
+ ![image](https://github.com/user-attachments/assets/f8f3b66b-6f37-4cb3-ac3e-f58c02aebcc0)
+ ![image](https://github.com/user-attachments/assets/474f1af7-ea94-4d6a-a6b1-8b0a0154db92)
+ ![image](https://github.com/user-attachments/assets/1dec8dcb-f420-461a-b8ad-e3a286a05f6d)
+ ![image](https://github.com/user-attachments/assets/7f25bf7f-79dd-4eb7-95de-d7a4698f6d82)
+ ![image](https://github.com/user-attachments/assets/51841e97-eb67-4dfe-a3cf-3c4a60ae3028)
+ ![image](https://github.com/user-attachments/assets/cc1267e9-2b9a-407b-82ed-0d1007cbcdec)
+ ![image](https://github.com/user-attachments/assets/d8f1b613-6989-42c6-baa0-f862dab9e2b1)
+ ![image](https://github.com/user-attachments/assets/d69334dd-2575-4d1e-851a-61ce06ba6e8b)
+ ![image](https://github.com/user-attachments/assets/6c87956b-5c49-4a03-83c8-b26e16b88d45)
+ ![image](https://github.com/user-attachments/assets/7e217f0d-0383-4cea-bccb-38b68fa9c43d)
 
 - Graph representing the train and validation losses:
 
